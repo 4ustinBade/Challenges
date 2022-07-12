@@ -24,6 +24,7 @@ avgs = float(input("What is the average speed above the limit? "))
 dt = float(input("What is the distance traveled? ")) 
 
 
-saved = time_saved(sl, avgs, dt)
+saved = round(time_saved(sl, avgs, dt),1)
 
 print(f"You have saved {saved} minutes by speeding! Congratulations!")
+ 
