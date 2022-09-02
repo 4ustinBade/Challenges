@@ -8,7 +8,7 @@ def format_date(date) :
         list.append(date[x])
     # Remove '/' from list
     for x in range(len(list)-2):
-        if list[x] ==1 '/':
+        if list[x] == '/' :
             list.remove(list[x])
         else:
             pass
@@ -18,7 +18,7 @@ def format_date(date) :
         list.pop(0)
     # Final format
     for i in range(len(list)):
-        if i <= 3 or i >= 6:
+        if i <= 3 or i >= 6:aaaaaaaaaaaaa
             pass
         else:
             list.append(list[4])
