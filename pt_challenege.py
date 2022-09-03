@@ -18,7 +18,7 @@ def format_date(date) :
         list.pop(0)
     # Final format
     for i in range(len(list)):
-        if i <= 3 or i >= 6:aaaaaaaaaaaaa
+        if i <= 3 or i >= 6:
             pass
         else:
             list.append(list[4])
