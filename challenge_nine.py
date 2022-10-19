@@ -29,7 +29,6 @@ def is_consec():
 
     # Remove duplicates in the input
     nodupe = []
-    
     for x in range(0, len(combined_list)) :
         if combined_list[x] not in nodupe :
             nodupe.append(combined_list[x])
